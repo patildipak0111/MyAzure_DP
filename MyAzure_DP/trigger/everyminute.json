@@ -1,0 +1,25 @@
+{
+	"name": "everyminute",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Started",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "CopyPipeline_xpj",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Minute",
+				"interval": 1,
+				"startTime": "2021-09-08T14:25:00",
+				"endTime": "2021-09-08T14:30:00",
+				"timeZone": "Central Standard Time"
+			}
+		}
+	}
+}
