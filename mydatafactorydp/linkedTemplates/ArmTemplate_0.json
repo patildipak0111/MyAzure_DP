@@ -265,7 +265,7 @@
 						"userProperties": [
 							{
 								"name": "Source",
-								"value": "//"
+								"value": "myfilestoredp/state_info.csv"
 							},
 							{
 								"name": "Destination",
@@ -289,14 +289,7 @@
 							"sink": {
 								"type": "AzureSqlSink"
 							},
-							"enableStaging": true,
-							"stagingSettings": {
-								"linkedServiceName": {
-									"referenceName": "AzureDataLakeStorage2",
-									"type": "LinkedServiceReference"
-								},
-								"path": "myfilestoredp"
-							},
+							"enableStaging": false,
 							"logSettings": {
 								"enableCopyActivityLog": true,
 								"copyActivityLogSettings": {
