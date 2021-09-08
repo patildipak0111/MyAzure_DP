@@ -30,7 +30,82 @@
 						"type": "SqlDWSink",
 						"allowCopyCommand": true
 					},
-					"enableStaging": false
+					"enableStaging": false,
+					"translator": {
+						"type": "TabularTranslator",
+						"mappings": [
+							{
+								"source": {
+									"name": "State",
+									"type": "String"
+								},
+								"sink": {
+									"name": "State",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "StateCode",
+									"type": "String"
+								},
+								"sink": {
+									"name": "StateCode",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Capital",
+									"type": "String"
+								},
+								"sink": {
+									"name": "Capital",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "LargestCity",
+									"type": "String"
+								},
+								"sink": {
+									"name": "LargestCity",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "PopulationEst2015",
+									"type": "String"
+								},
+								"sink": {
+									"name": "PopulationEst2015",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "HouseSeats",
+									"type": "String"
+								},
+								"sink": {
+									"name": "HouseSeats",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "StateHood",
+									"type": "String"
+								},
+								"sink": {
+									"name": "StateHood",
+									"type": "String"
+								}
+							}
+						]
+					}
 				},
 				"inputs": [
 					{
