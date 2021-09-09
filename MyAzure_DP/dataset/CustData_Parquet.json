@@ -1,0 +1,19 @@
+{
+	"name": "CustData_Parquet",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureDataLakeStorage3",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Parquet",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileSystem": "myfilestoredp"
+			},
+			"compressionCodec": "snappy"
+		},
+		"schema": []
+	}
+}
