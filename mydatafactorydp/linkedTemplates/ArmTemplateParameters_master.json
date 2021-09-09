@@ -11,16 +11,16 @@
 		"AzureDataLakeStorage2_accountKey": {
 			"value": ""
 		},
-		"AzureSqlDatabase1_connectionString": {
+		"AzureDataLakeStorage3_accountKey": {
 			"value": ""
 		},
-		"AzureSynapseAnalytics1_connectionString": {
+		"AzureSqlDatabase1_connectionString": {
 			"value": ""
 		},
 		"AzureSqlDatabase2_connectionString": {
 			"value": ""
 		},
-		"AzureDataLakeStorage3_accountKey": {
+		"AzureSynapseAnalytics1_connectionString": {
 			"value": ""
 		},
 		"AzureDataLakeStorage1_properties_typeProperties_url": {
