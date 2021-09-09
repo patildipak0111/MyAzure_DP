@@ -91,7 +91,17 @@
 							"outputs": [
 								{
 									"referenceName": "CustData_Parquet",
-									"type": "DatasetReference"
+									"type": "DatasetReference",
+									"parameters": {
+										"FolderName": {
+											"value": "@item().sourceSchema",
+											"type": "Expression"
+										},
+										"FileName": {
+											"value": "@item().sourceTbl",
+											"type": "Expression"
+										}
+									}
 								}
 							]
 						}
